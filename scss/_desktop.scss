@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1440px) {
+
+  .card {
+    display: flex;
+
+    img {
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 12px;
+      height: 100%;
+      width: auto;
+    }
+
+    .content {
+
+      margin-left: 7em;
+
+      .main-text-content {
+        margin-right: 3em;
+        
+  
+        .heading {
+          font-size: 3em;
+          text-align: left;
+        }
+  
+        .text {
+          font-size: 2em;
+          line-height: 45px;
+        }
+      }
+
+    }
+
+    
+  }
+
+}
