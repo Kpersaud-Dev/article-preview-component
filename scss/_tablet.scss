@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1024px) {
+
+  .card {
+    display: flex;
+    top: 100px;
+
+    img {
+      height: 100%;
+      border-top-right-radius: 0px;
+    }
+
+    .social.active {
+      width: 40%;
+      position: relative; 
+      bottom: 150px;
+      left: 350px;
+      border-radius: 12px;
+      padding: 1em;
+      transform: translateY(-50%);
+      transition: transform .4s;
+    }
+  }
+}

@@ -2,6 +2,7 @@
 
   .card {
     display: flex;
+    top: 150px;
 
     img {
       border-top-right-radius: 0px;
@@ -11,11 +12,11 @@
     }
 
     .content {
-
+      margin-top: 1em;
       margin-left: 7em;
 
       .main-text-content {
-        margin-right: 3em;
+        margin-right: 6em;
         
   
         .heading {
@@ -24,14 +25,48 @@
         }
   
         .text {
-          font-size: 2em;
+          font-size: 1.5em;
           line-height: 45px;
         }
       }
 
-    }
+      .main-footer {
+        justify-content: space-evenly;
+        position: relative;
+        top: 50px;
 
-    
+        .michelle-pic {
+          width: 10%;
+          position: relative;
+          right: 100px;
+        }
+
+        .footer-info {
+          position: relative;
+          right: 250px;
+        }
+
+        .share.active {
+
+        }
+      }
+
+      .main-footer.active {
+        opacity: 1;
+        z-index: 1;
+      }
+
+      .social.active {
+        width: 30%;
+        position: relative; 
+        bottom: 75px;
+        left: 625px;
+        border-radius: 12px;
+        padding: 1em;
+        transform: translateY(-50%);
+      }
+
+      
+    } 
   }
-
 }
